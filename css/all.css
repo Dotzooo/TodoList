@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot);
+  /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular");
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  cursor: pointer;
+  vertical-align: middle;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: "liga";
+          font-feature-settings: "liga";
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: white;
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  background: #fff;
+  font-family: "Roboto Condensed", sans-serif, "微軟正黑體";
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .img {
+  text-align: center;
+}
+
+body .container .img img {
+  width: 800px;
+  height: 500px;
+}
+
+body .wrapper {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ff3d4a;
+}
+
+body .wrapper .img {
+  text-align: center;
+}
+
+body .wrapper .img img {
+  width: 800px;
+  height: 500px;
+}
+
+body .wrapper h1 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+body .wrapper .send-info {
+  border: 1px solid #000;
+  width: 540px;
+  background: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body .wrapper .send-info .todo-info {
+  margin: 10px;
+  padding: 5px 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+body .wrapper .send-info .send-btn {
+  margin: 10px;
+  padding: 5px 15px;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+body .wrapper .list {
+  border: 1px solid #000;
+  width: 500px;
+  margin: 0 auto;
+  list-style: none;
+  background: #fff;
+}
+
+body .wrapper .list li {
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+body .wrapper .list li a {
+  padding: 5px 15px;
+}
+
+body .wrapper .list li span {
+  padding: 5px 15px;
+}
+/*# sourceMappingURL=all.css.map */
